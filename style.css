@@ -1,0 +1,364 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2e8b57;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    margin-left: 20px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url("https://i.pinimg.com/736x/97/89/48/978948c8bbcaac797df961b1c3e29997.jpg") no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.explore-btn {
+  background: #3eb170;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  top: 25px;
+}
+
+.explore-btn:hover {
+  background: #2e8b57;
+}
+
+.hero_text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.hero_text p {
+    font-size: 18px;
+}
+
+/* Packages Section */
+.packages {
+    padding: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #2e8b57;
+}
+
+.card p {
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2e8b57;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background: #256b44;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #2e8b57;
+    color: white;
+    margin-top: 20px;
+}
+
+/* about us css */
+/* ================= About Page ================= */
+
+/* Navbar */
+.about-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e8b57;
+    padding: 1rem 2rem;
+}
+
+.about-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.about-nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-nav-links a:hover,
+.about-nav-links a.active {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.about-hero {
+    position: relative;
+    text-align: center;
+    color: #333;
+}
+
+.about-hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-hero-text-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 2rem;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-hero-text-box h1 {
+    margin-bottom: 1rem;
+    color: #2e8b57;
+}
+
+.about-hero-sub-text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.about-hero-sub-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Info Cards Section */
+.about-info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.about-card h3 {
+    margin-bottom: 1rem;
+    color: #2e8b57;
+}
+
+/* Footer */
+.about-footer {
+    background: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* contact us css */
+/* ================= Contact Page ================= */
+.contact-body{
+    background-image: url("https://th.bing.com/th/id/OIP.NSdMGR4tP4zB9hNgFQ4grQHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+}   
+/* Navbar */
+.contact-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e8b57;
+    padding: 1rem 2rem;
+}
+
+.contact-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact-nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-nav-links a:hover,
+.contact-nav-links a.active {
+    text-decoration: underline;
+}
+
+/* Full-page Hero Contact */
+.contact-hero {
+    background: url('images/contact-hero.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+}
+
+.contact-box {
+    background: rgba(255,255,255,0.95);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.contact-box h1 {
+    margin-bottom: 1rem;
+    color: #2e8b57;
+}
+
+.contact-box p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Form inside contact box */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    padding: 0.8rem;
+    background-color: #2e8b57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: #27694b;
+}
+
+/* Footer */
+.contact-footer {
+    background: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
